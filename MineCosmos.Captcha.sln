@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7291819A-2853-4E30-A65C-370539DB557B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinCosmos.Captcha.Core", "src\MinCosmos.Captcha.Core\MinCosmos.Captcha.Core.csproj", "{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinCosmos.Captcha.ClickCaptcha", "src\MinCosmos.Captcha.ClickCaptcha\MinCosmos.Captcha.ClickCaptcha.csproj", "{270F1141-E780-41B3-B8F9-63DBDE71A35A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F930357-5B16-4469-B807-FF08D0050AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineCosmos.Captcha.Core.Tests", "test\MineCosmos.Captcha.Core.Tests\MineCosmos.Captcha.Core.Tests.csproj", "{76D92868-2F94-409F-A13E-BA1AD840B0A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270F1141-E780-41B3-B8F9-63DBDE71A35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270F1141-E780-41B3-B8F9-63DBDE71A35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270F1141-E780-41B3-B8F9-63DBDE71A35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270F1141-E780-41B3-B8F9-63DBDE71A35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D92868-2F94-409F-A13E-BA1AD840B0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D92868-2F94-409F-A13E-BA1AD840B0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D92868-2F94-409F-A13E-BA1AD840B0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D92868-2F94-409F-A13E-BA1AD840B0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AA7EBA1-73DF-41A0-BA55-E6CFA11F8A3B} = {7291819A-2853-4E30-A65C-370539DB557B}
+		{270F1141-E780-41B3-B8F9-63DBDE71A35A} = {7291819A-2853-4E30-A65C-370539DB557B}
+		{76D92868-2F94-409F-A13E-BA1AD840B0A7} = {1F930357-5B16-4469-B807-FF08D0050AA1}
+	EndGlobalSection
+EndGlobal
